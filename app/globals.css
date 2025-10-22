@@ -1,0 +1,13 @@
+@import "tailwindcss";
+:root { --radius: 0.5rem; }
+html, body { height: 100%; }
+body { color: rgb(17 24 39); background: rgb(249 250 251); }
+.container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+.card { border: 1px solid rgb(229 231 235); border-radius: var(--radius); background: white; }
+.card-header { padding: 1rem; border-bottom: 1px solid rgb(229 231 235); }
+.card-body { padding: 1rem; }
+.btn { display: inline-flex; align-items: center; gap: .5rem; padding: .5rem .8rem; border-radius: .5rem; border: 1px solid rgb(229 231 235); }
+.btn-primary { background: rgb(59 130 246); color: white; border-color: rgb(59 130 246); }
+.btn-ghost { background: transparent; color: rgb(17 24 39); }
+.text-muted { color: rgb(107 114 128); }
+kbd { padding: 2px 6px; border: 1px solid #d1d5db; border-radius: 4px; font-size: 12px; background: #f9fafb; }

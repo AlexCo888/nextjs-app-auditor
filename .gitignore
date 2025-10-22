@@ -1,0 +1,61 @@
+# === Node / Next.js ===
+node_modules/
+.next/
+out/
+build/
+dist/
+.nitro/
+.cache/
+
+# === Environment Files ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === OS & Editor ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# === Dependency Managers ===
+.pnpm-store/
+package-lock.json
+yarn.lock
+.pnp.*
+.pnp.js
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Testing ===
+coverage/
+.jest/
+.nyc_output/
+
+# === Vercel / Deploy ===
+.vercel/
+.vercel_build_output/
+
+# === Misc ===
+*.log
+*.pem
+*.pid
+*.seed
+*.key
+*.crt
+
+# === Turbo / Nx Monorepos ===
+.turbo/
+nx-cache/
