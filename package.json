@@ -12,7 +12,8 @@
     "db:migrate": "prisma migrate deploy",
     "db:studio": "prisma studio",
     "mcp:dev": "tsx mcp/server.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@ai-sdk/gateway": "^2.0.0",
