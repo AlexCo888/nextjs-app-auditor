@@ -85,10 +85,10 @@ export function buildImportGraph(
     }
 
     // Also check dynamic imports and require calls
-    sf.forEachDescendant(node => {
+    sf.forEachDescendant(astNode => {
       // import('...')
-      if (node.getKind() === SyntaxKind.CallExpression) {
-        const callExpr = node as any;
+      if (astNode.getKind() === SyntaxKind.CallExpression) {
+        const callExpr = astNode as any;
         const expr = callExpr.getExpression();
         if (expr.getText() === 'import' || expr.getText() === 'require') {
           const args = callExpr.getArguments();

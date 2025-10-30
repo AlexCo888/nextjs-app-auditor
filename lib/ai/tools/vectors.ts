@@ -83,7 +83,7 @@ export async function semanticSearch(
 ): Promise<VectorChunk[]> {
   try {
     // Generate embedding for query
-    const { embeddings } = await embedChunks([{ id: 'query', text: query }]);
+    const embeddings = await embedChunks([{ id: 'query', text: query }]);
     const queryEmbedding = embeddings[0];
 
     // Build WHERE clause for repo filtering
