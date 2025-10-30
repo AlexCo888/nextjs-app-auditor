@@ -38,9 +38,6 @@ importers:
       istextorbinary:
         specifier: ^9.5.0
         version: 9.5.0
-      jsonrepair:
-        specifier: 3.13.1
-        version: 3.13.1
       langfuse:
         specifier: ^3.38.6
         version: 3.38.6
@@ -1824,10 +1821,6 @@ packages:
 
   json5@1.0.2:
     resolution: {integrity: sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==}
-    hasBin: true
-
-  jsonrepair@3.13.1:
-    resolution: {integrity: sha512-WJeiE0jGfxYmtLwBTEk8+y/mYcaleyLXWaqp5bJu0/ZTSeG0KQq/wWQ8pmnkKenEdN6pdnn6QtcoSUkbqDHWNw==}
     hasBin: true
 
   jsx-ast-utils@3.3.5:
@@ -4447,8 +4440,6 @@ snapshots:
   json5@1.0.2:
     dependencies:
       minimist: 1.2.8
-
-  jsonrepair@3.13.1: {}
 
   jsx-ast-utils@3.3.5:
     dependencies:
