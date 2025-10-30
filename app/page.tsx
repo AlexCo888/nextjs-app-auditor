@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+import { ApiKeysDialog } from '@/components/api-keys-dialog';
 
 const PROVIDER_LABELS: Record<'vercel' | 'openrouter', string> = {
   vercel: 'Vercel AI Gateway',
@@ -206,6 +207,8 @@ export default function Page() {
           </CardContent>
         </Card>
       )}
+      
+      <ApiKeysDialog />
     </div>
   );
 }

@@ -10,4 +10,9 @@ body { color: rgb(17 24 39); background: rgb(249 250 251); }
 .btn-primary { background: rgb(59 130 246); color: white; border-color: rgb(59 130 246); }
 .btn-ghost { background: transparent; color: rgb(17 24 39); }
 .text-muted { color: rgb(107 114 128); }
+.text-muted-foreground { color: rgb(107 114 128); }
+.ring-offset-background { --tw-ring-offset-color: rgb(255 255 255); }
+.ring-ring { --tw-ring-color: rgb(59 130 246); }
+.focus\:ring-2:focus { --tw-ring-width: 2px; }
+.focus\:ring-offset-2:focus { --tw-ring-offset-width: 2px; }
 kbd { padding: 2px 6px; border: 1px solid #d1d5db; border-radius: 4px; font-size: 12px; background: #f9fafb; }
