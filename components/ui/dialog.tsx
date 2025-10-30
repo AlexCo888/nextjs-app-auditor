@@ -29,8 +29,6 @@ interface DialogFooterProps {
 }
 
 export function Dialog({ open, onOpenChange, children }: DialogProps) {
-  if (!open) return null;
-
   React.useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
       if (e.key === 'Escape') onOpenChange(false);
@@ -38,6 +36,8 @@ export function Dialog({ open, onOpenChange, children }: DialogProps) {
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
   }, [onOpenChange]);
+
+  if (!open) return null;
 
   return (
     <div
