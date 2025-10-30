@@ -6,7 +6,7 @@ import { ProgressStream, createSSEStream, calculateProgress } from '@/lib/ai/too
 import { getCachedScan, cacheScanResult } from '@/lib/ai/tools/cache';
 
 export const runtime = 'nodejs';
-export const maxDuration = 900; // 15 minutes (increase if needed for very large scans)
+export const maxDuration = 800; // 15 minutes (increase if needed for very large scans)
 
 export async function POST(req: NextRequest) {
   const url = new URL(req.url);
