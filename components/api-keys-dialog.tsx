@@ -69,7 +69,7 @@ export function ApiKeysDialog() {
             <h3 className="font-semibold text-blue-900 mb-1 sm:mb-2 text-sm sm:text-base">🔑 API Keys Required</h3>
             <p className="text-xs sm:text-sm text-blue-800 leading-relaxed">
               This is a self-hosted application that requires your own API keys to function. 
-              You'll need to configure at least one AI provider to start auditing repositories.
+              You&apos;ll need to configure at least one AI provider to start auditing repositories.
             </p>
           </div>
 
