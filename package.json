@@ -24,7 +24,7 @@
     "ai": "^5.0.76",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.18",
-    "express": "^5.1.0",
+    "express": "^5.2.0",
     "istextorbinary": "^9.5.0",
     "langfuse": "^3.38.6",
     "lucide-react": "^0.546.0",
